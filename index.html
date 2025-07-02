@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="NightHawk">
+  <title>Saprative Banerjee</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Our Institution</h1>
+    <p>Providing excellent education for more than <em>20</em> years</p>
+    <h2>Registration Form</h2>
+  </header>
+  <h1 id="title">Rubon Sir's <br> Education Center</h1>
+  <img src="images/Rubon Sir.jpg" alt="Rubon Sir" class="RubonSirImage">
+  <p id="description">Please fill up the form below</p>
+  <form id="registration-form" action="https://formsubmit.co/shrotriyabanerjee24@gmail.com" method="POST">
+    <fieldset>
+      <label for="name" id="name-label">Your Name: <input type="text" id="name" placeholder="e.g. Winston Churchill"
+          name="Name" required>
+      </label>
+
+      <label for="email" id="email-label">Your Email Address: <input type="email" name="Email" id="email"
+          placeholder=" e.g. winstonwhurchill@gmail.com">
+      </label>
+      <label for="number" id="number-label">Your age <input type="number" name="Age" id="number" placeholder="e.g. 24"
+          min="0" max="120" required>
+        <label>
+    </fieldset>
+    <fieldset>
+      <legend>Your gender: </legend>
+      <label for="Male"><input type="radio" class="rating" name="ratings" value="Male" id="Male"> Male</label>
+
+      <label for="Female"><input type="radio" class="rating" name="ratings" value="Female" id="Female"> Female</label>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>What do you want to study</legend>
+      <label for="Bengali"><input type="checkbox" value="Bengali" id="Bengali" class="rating"> Bengali</label>
+
+      <label for="History"><input type="checkbox" value="History" id="History" class="rating"> History</label>
+
+      <label for="Politcal Science"><input type="checkbox" value="Politcal Science" id="Politcal Science"
+          class="rating">
+        Politcal Science</label>
+
+      <label for="SLST (SSC-School Services Commision)"><input type="checkbox"
+          value="SLST (SSC-School Services Commision)" id="SLST (SSC-School Services Commision)" class="rating">
+        SLST (SSC-School Services Commision)</label>
+    </fieldset>
+    <fieldset>
+      <select id="dropdown">
+        <optgroup label="Where did you learn of us?">
+          <option hidden>Where did you learn of us (choose one)</option>
+          <option>Word-of-Mouth</option>
+          <option>Advertisement</option>
+          <option>Online search</option>
+          <option>Accidental discovery</option>
+          <option>Social Media</option>
+          <option>Other</option>
+        </optgroup>
+      </select>
+      <label for="comments">Additional queries: </label>
+      <textarea placeholder="Ask any queries you have..." rows="3" cols="30" id="comments" name="queries"></textarea>
+    </fieldset>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  </section>
+  <a href="authoredbooks.html" target="_blank">
+    <section>
+      <p>Check out the books written by me</p>
+    </section>
+  </a>
+  <footer>
+    <p>Education center</p>
+    <p>Near Agnibina Kali Mandir, Rabindrapally, Siuri, Birbhum, 731101
+    </p>
+    <p>&lt&lt&lt&copy NightHawk &gt&gt&gt</p>
+  </footer>
+</body>
+
+</html>
